@@ -31,7 +31,7 @@ const Info: React.FC<InfoProps> = ({ data }) => {
         <div className="flex items-center gap-x-4">
           <h3 className="font-semibold text-black">Size:</h3>
           <div>
-            {data?.size?.value}
+            {data?.sizes?.value}
           </div>
         </div>
         <div className="flex items-center gap-x-4">
